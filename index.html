@@ -17,11 +17,13 @@
     <!-- header -->
     <header>
       <!-- Navbar -->
-      <a href="http://index.xml">
-        <img class="nav-logo" src="./Assets/SCLogo.webp" />
-      </a>
-      <nav>
-        <ol>
+
+      <nav class="topNav" id="myTopNav">
+        <ol class="nav-links menu">
+          
+          <li>
+            <a href="./index.html" class="active">Home</a>
+          </li>
           <li>
             <a href="./SubPages/About.html">About</a>
           </li>
@@ -34,8 +36,21 @@
           <li>
             <a href="./SubPages/Contact.html">Contact</a>
           </li>
+
+          <li>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </li>
+
+          <!-- USING CHECKBOX HACK -->
+          <input type="checkbox" id="checkbox_toggle" />
+          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
         </ol>
       </nav>
+      <a href="http://index.xml">
+        <img class="nav-logo" src="./Assets/SCLogo.webp" />
+      </a>
     </header>
 
     <!-- main  section-->
