@@ -92,15 +92,45 @@ input[type="checkbox"]:checked ~ .menu {
   display: block;
 }
 
-
 /* MAIN SECTION */
-.hero-section{
-    background-image: url(../Assets/Oranges.png);
-    background-size: cover;
-    min-height: 100vh;
+.hero-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Assets/Oranges.png); 
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
-.heroImg{
-    height: 25rem;
-    float: left;
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 62%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: xx-large;
 }
+
+.heroImg {
+  height: 25rem;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 31%;
+  transform: translate(-50%, -50%);
+}
+
+button{
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: #eee;
+  background-color: #e15e14;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 3rem;
+  border-radius: 2px;
+}
+
