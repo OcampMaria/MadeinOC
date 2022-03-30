@@ -14,29 +14,44 @@
     />
   </head>
   <body>
-    <!-- header -->
     <header>
       <!-- Navbar -->
+
+      <nav class="topNav" id="myTopNav">
+        <ol class="nav-links menu">
+          
+          <li>
+            <a href="../index.html" class="active">Home</a>
+          </li>
+          <li>
+            <a href="./About.html">About</a>
+          </li>
+          <li>
+            <a href="./LocalBusiness.html">Local Businessess</a>
+          </li>
+          <li>
+            <a href="./Blog.html">Blog</a>
+          </li>
+          <li>
+            <a href="./Contact.html">Contact</a>
+          </li>
+
+          <li>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </li>
+
+          <!-- USING CHECKBOX HACK -->
+          <input type="checkbox" id="checkbox_toggle" />
+          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+        </ol>
+      </nav>
       <a href="http://index.xml">
         <img class="nav-logo" src="../Assets/SCLogo.webp" />
       </a>
-      <nav>
-        <ul>
-          <li>
-            <a href="./SubPages/About.html">About</a>
-          </li>
-          <li>
-            <a href="./SubPages/LocalBusiness.html">Local Businessess</a>
-          </li>
-          <li>
-            <a href="./SubPages/Blog.html">Blog</a>
-          </li>
-          <li>
-            <a href="./SubPages/Contact.html">Contact</a>
-          </li>
-        </ul>
-      </nav>
     </header>
+
 
     <!-- main  section-->
     <main class="hero-section">
