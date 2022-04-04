@@ -16,40 +16,37 @@
   <body>
     <header>
       <!-- Navbar -->
-
-      <nav class="topNav" id="myTopNav">
-        <ol class="nav-links menu">
-          
-          <li>
-            <a href="../index.html" class="active">Home</a>
-          </li>
-          <li>
-            <a href="./About.html">About</a>
-          </li>
-          <li>
-            <a href="./LocalBusiness.html">Local Businessess</a>
-          </li>
-          <li>
-            <a href="./Blog.html">Blog</a>
-          </li>
-          <li>
-            <a href="./Contact.html">Contact</a>
-          </li>
-
-          <li>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <i class="fa fa-bars"></i>
+      <nav>
+        <div id="navbar">
+          <div id="logo">
+            <a href="../index.html">
+              <img class="nav-logo" src="../Assets/SCLogo.webp" />
             </a>
-          </li>
-
-          <!-- USING CHECKBOX HACK -->
-          <input type="checkbox" id="checkbox_toggle" />
-          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-        </ol>
+          </div>
+          <div id="links">
+            <a href="../index.html">Home</a>
+            <a href="./About.html">About</a>
+            <a href="./Blog.html">Blog</a>
+            <a href="./LocalBusiness.html">Local Business</a>
+            <a href="./Contact.html">Contact</a>
+          </div>
+  
+          <div class="mobile-btn">
+            <a id="menu-btn" onclick="myFunction()" class="fa fa-bars fa-2x"></a>
+          </div>
+  
+        </div>
       </nav>
-      <a href="http://index.xml">
-        <img class="nav-logo" src="../Assets/SCLogo.webp" />
-      </a>
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="mobile-menu">
+        <ul class="mobile-links">
+          <li class="nav-list"><a href="./index.html">Home</a></li>
+          <li class="nav-list"><a href="./SubPages/About.html">About</a></li>
+          <li class="nav-list"><a href="./SubPages/Blog.html">Blog</a></li>
+          <li class="nav-list"><a href="./SubPages/LocalBusiness.html">Local Business</a></li>
+          <li class="nav-list"><a href="./SubPages/Contact.html">Contact</a></li>
+        </ul>
+      </div>
     </header>
 
 
