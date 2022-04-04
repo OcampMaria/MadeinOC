@@ -6,8 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog</title>
     <!-- main style css -->
-    <link rel="stylesheet" href="../Styles/style.css"
-    <!-- font-awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="../Styles/style.css"
+      <!--
+      font-awesome
+      for
+      icons
+      --
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -30,11 +37,14 @@
             <a href="./LocalBusiness.html">Local Business</a>
             <a href="./Contact.html">Contact</a>
           </div>
-  
+
           <div class="mobile-btn">
-            <a id="menu-btn" onclick="myFunction()" class="fa fa-bars fa-2x"></a>
+            <a
+              id="menu-btn"
+              onclick="myFunction()"
+              class="fa fa-bars fa-2x"
+            ></a>
           </div>
-  
         </div>
       </nav>
       <!-- Mobile Menu -->
@@ -43,23 +53,47 @@
           <li class="nav-list"><a href="./index.html">Home</a></li>
           <li class="nav-list"><a href="./SubPages/About.html">About</a></li>
           <li class="nav-list"><a href="./SubPages/Blog.html">Blog</a></li>
-          <li class="nav-list"><a href="./SubPages/LocalBusiness.html">Local Business</a></li>
-          <li class="nav-list"><a href="./SubPages/Contact.html">Contact</a></li>
+          <li class="nav-list">
+            <a href="./SubPages/LocalBusiness.html">Local Business</a>
+          </li>
+          <li class="nav-list">
+            <a href="./SubPages/Contact.html">Contact</a>
+          </li>
         </ul>
       </div>
     </header>
 
-
     <!-- main  section-->
-    <main class="hero-section">
-      <img src="../Assets/Oranges.png" />
-      <h1>Made in Orange County - Blog</h1>
-
-      <h2>Championing Small Business & Heroes</h2>
+    <!-- Hero section About-->
+    <main class="hero-section wrapper">
+      <div class="hero-text">
+        <h1>Made in Orange County - Blog</h1>
+        <h2>Championing Small Business & Heroes</h2>
+      </div>
     </main>
 
     <!-- Blog Posts section -->
-    <section>
+
+    <section class="sub-section">
+      <h1>The column-gap Property</h1>
+      <p>
+        Use the <em>column-gap</em> property to adjust the space between the
+        columns:
+      </p>
+      <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+        <div class="grid-item">9</div>
+      </div>
+    </section>
+
+    <section class="blog sub-section">
       <h2>Find Your Local Businessess</h2>
       <div class="blogs-container">
         <div class="single-blog-container">
@@ -95,44 +129,36 @@
 
     <!-- footer -->
     <footer>
-      <!-- footer-menu -->
-      <ol>
-        <li class="footer-left">
-          <a href="#">Mobile App</a>
-        </li>
-        <li class="footer-left">
-          <a href="#">Community</a>
-        </li>
-        <li class="footer-left">
-          <a href="#">Company</a>
-        </li>
-        <li class="footer-right">
-          <a href="#">Help Desk</a>
-        </li>
-        <li class="footer-right">
-          <a href="#">Resources</a>
-        </li>
-        <li class="footer-right">
-          <a href="#">Blog</a>
-        </li>
-      </ol>
-
-      
-
-      <ul>
+      <ul class="footer-items">
         <li>
-          <i class="fa fa-instagram"></i>
+          <a href="#">Twitter</a>
         </li>
         <li>
-          <i class="fa fa-facebook"></i>
+          <a href="#" class="footer-item">Codepen</a>
         </li>
+        <li><a href="#" class="footer-item">Email</a></li>
+        <li><a href="#">Dribbble</a></li>
+        <li><a href="#" class="footer-item">Github</a></li>
         <li>
-          <i class="fa fa-linkedin"></i>
-        </li>
-        <li>
-          <i class="fa fa-twitter"></i>
+          <p>👋</p>
         </li>
       </ul>
+
+      <!-- social media -->
+      <div class="center">
+        <div id="social-test">
+          <ul class="social">
+            <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+            <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+            <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+            <li><i class="fa fa-vimeo" aria-hidden="true"></i></li>
+            <li><i class="fa fa-behance" aria-hidden="true"></i></li>
+            <li><i class="fa fa-dribbble" aria-hidden="true"></i></li>
+            <li><i class="fa fa-github" aria-hidden="true"></i></li>
+            <li><i class="fa fa-pied-piper" aria-hidden="true"></i></li>
+          </ul>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
