@@ -8,157 +8,164 @@
     <!-- main style css -->
     <link rel="stylesheet" href="../Styles/style.css" />
     <!-- font-awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
-   
-  <header>
-    <!-- Navbar -->
-    <nav>
-      <div id="navbar">
-        <div id="logo">
-          <a href="../index.html">
-            <img class="nav-logo" src="../Assets/SCLogo.webp" />
-          </a>
+    <header>
+      <!-- Navbar -->
+      <nav>
+        <div id="navbar">
+          <div id="logo">
+            <a href="../index.html">
+              <img class="nav-logo" src="../Assets/SCLogo.webp" />
+            </a>
+          </div>
+          <div id="links">
+            <a href="../index.html">Home</a>
+            <a href="./About.html">About</a>
+            <a href="./Blog.html">Blog</a>
+            <a href="./LocalBusiness.html">Local Business</a>
+            <a href="./Contact.html">Contact</a>
+          </div>
+
+          <div class="mobile-btn">
+            <a
+              id="menu-btn"
+              onclick="myFunction()"
+              class="fa fa-bars fa-2x"
+            ></a>
+          </div>
         </div>
-        <div id="links">
-          <a href="../index.html">Home</a>
-          <a href="./About.html">About</a>
-          <a href="./Blog.html">Blog</a>
-          <a href="./LocalBusiness.html">Local Business</a>
-          <a href="./Contact.html">Contact</a>
-        </div>
-
-        <div class="mobile-btn">
-          <a id="menu-btn" onclick="myFunction()" class="fa fa-bars fa-2x"></a>
-        </div>
-
-      </div>
-    </nav>
-    <!-- Mobile Menu -->
-    <div id="mobile-menu" class="mobile-menu">
-      <ul class="mobile-links">
-        <li class="nav-list"><a href="./index.html">Home</a></li>
-        <li class="nav-list"><a href="./SubPages/About.html">About</a></li>
-        <li class="nav-list"><a href="./Blog.html">Blog</a></li>
-        <li class="nav-list"><a href="./SubPages/LocalBusiness.html">Local Business</a></li>
-        <li class="nav-list"><a href="./SubPages/Contact.html">Contact</a></li>
-      </ul>
-    </div>
-  </header>
-
-      <!-- Hero section About-->
-  <main class="hero-section wrapper">
-   
-
-    <div class="hero-text">
-      <h1>
-        Made in OC
-      </h1>
-      <h2>Championing Small Business & Heroes</h2>
-
-    </div>
-  </main>
-
-  <!-- About Section -->
-  <section class="section">
-    <div class="welcome-image">
-      <img src="../Assets/SCs.png" />
-    </div>
-    <div class="text">
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-        labore sapiente asperiores ea aperiam voluptates rem provident,
-        similique deserunt at, tenetur mollitia minima et ab quos odio
-        praesentium delectus magni!
-      </p>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-        labore sapiente asperiores ea aperiam voluptates rem provident,
-        similique deserunt at, tenetur mollitia minima et ab quos odio
-        praesentium delectus magni!
-      </p>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-        labore sapiente asperiores ea aperiam voluptates rem provident,
-        similique deserunt at, tenetur mollitia minima et ab quos odio
-        praesentium delectus magni!
-      </p>
-    </div>
-  </section>
-
-  <!-- Business Section -->
-  <!-- carousel -->
-  <section class="localBusiness-section  ">
-    <input type="radio" name="position" checked />
-    <input type="radio" name="position" />
-    <input type="radio" name="position" />
-    <input type="radio" name="position" />
-    <input type="radio" name="position" />
-    <main id="carousel">
-      <div class="item"></div>
-      <div class="item"></div>
-      <div class="item"></div>
-      <div class="item"></div>
-      <div class="item"></div>
-      <main>
-  </section>
-
-  <section class="IG-section section">
-    <h3>
-      Join in the Great Orange County by supporting local small business &
-      heroes hardest hit by the pandemic
-    </h3>
-
-    <p>@madeinorangecounty</p>
-  </section>
-
-
- 
-
-
-  <!-- footer -->
-  <footer>
-    <ul class="footer-items">
-      <li>
-        <a href="#">Twitter</a>
-      </li>
-      <li>
-        <a href="#" class="footer-item">Codepen</a>
-      </li>
-      <li><a href="#" class="footer-item">Email</a></li>
-      <li><a href="#">Dribbble</a></li>
-      <li><a href="#" class="footer-item">Github</a></li>
-      <li>
-        <p>👋</p>
-      </li>
-    </ul>
-
-    <!-- social media -->
-    <div class="center">
-      <div id="social-test">
-        <ul class="social">
-          <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
-          <li><i class="fa fa-twitter" aria-hidden="true"></i>
+      </nav>
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="mobile-menu">
+        <ul class="mobile-links">
+          <li class="nav-list"><a href="./index.html">Home</a></li>
+          <li class="nav-list"><a href="./SubPages/About.html">About</a></li>
+          <li class="nav-list"><a href="./Blog.html">Blog</a></li>
+          <li class="nav-list">
+            <a href="./SubPages/LocalBusiness.html">Local Business</a>
           </li>
-          <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
-          <li><i class="fa fa-vimeo" aria-hidden="true"></i>
-          </li>
-          <li><i class="fa fa-behance" aria-hidden="true"></i></li>
-          <li><i class="fa fa-dribbble" aria-hidden="true"></i>
-          </li>
-          <li><i class="fa fa-github" aria-hidden="true"></i>
-          </li>
-          <li><i class="fa fa-pied-piper" aria-hidden="true"></i>
+          <li class="nav-list">
+            <a href="./SubPages/Contact.html">Contact</a>
           </li>
         </ul>
       </div>
-    </div>
-  </footer>
+    </header>
 
+    <!-- Hero section About-->
+    <main class="hero-section wrapper">
+      <div class="hero-text">
+        <h1>Made in OC</h1>
+        <h2>Championing Small Business & Heroes</h2>
+      </div>
+    </main>
 
+    <!-- About Section -->
+    <section class="welcome-section section container">
+      <div class="welcome-image">
+        <img src="../Assets/SCs.png" />
+      </div>
+      <div class="text">
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+          labore sapiente asperiores ea aperiam voluptates rem provident,
+          similique deserunt at, tenetur mollitia minima et ab quos odio
+          praesentium delectus magni!
+        </p>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+          labore sapiente asperiores ea aperiam voluptates rem provident,
+          similique deserunt at, tenetur mollitia minima et ab quos odio
+          praesentium delectus magni!
+        </p>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+          labore sapiente asperiores ea aperiam voluptates rem provident,
+          similique deserunt at, tenetur mollitia minima et ab quos odio
+          praesentium delectus magni!
+        </p>
+      </div>
+    </section>
 
-  <script src="../script.js"></script>
+    <section class="container history-about ">
+      <h2>How Everything Started</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+        deserunt, similique omnis recusandae adipisci quisquam ratione? Delectus
+        facere nobis laboriosam, repellat impedit quo facilis neque, voluptatum
+        quam molestias aliquam nihil?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+        voluptatum, qui similique perspiciatis tempore labore voluptates omnis
+        minus obcaecati quidem quaerat facere exercitationem ea tenetur libero
+        earum odit consequuntur magni.
+      </p>
+    </section>
+
+    <section class="container ">
+      <h2>Find Your Local Business</h2>
+      <div class="parent-container local-business-container  grid-container">
+        <div class="grid-item">
+          <p>
+            Category 1
+          </p>
+        </div>
+        <div class="grid-item">
+          <p>
+            Category 2
+          </p>
+        </div>
+        <div class="grid-item">
+          <p>
+            Category 3
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <ul class="footer-items">
+        <li>
+          <a href="#">Twitter</a>
+        </li>
+        <li>
+          <a href="#" class="footer-item">Codepen</a>
+        </li>
+        <li><a href="#" class="footer-item">Email</a></li>
+        <li><a href="#">Dribbble</a></li>
+        <li><a href="#" class="footer-item">Github</a></li>
+        <li>
+          <p>👋</p>
+        </li>
+      </ul>
+
+      <!-- social media -->
+      <div class="center">
+        <div id="social-test">
+          <ul class="social">
+            <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+            <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+            <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+            <li><i class="fa fa-vimeo" aria-hidden="true"></i></li>
+            <li><i class="fa fa-behance" aria-hidden="true"></i></li>
+            <li><i class="fa fa-dribbble" aria-hidden="true"></i></li>
+            <li><i class="fa fa-github" aria-hidden="true"></i></li>
+            <li><i class="fa fa-pied-piper" aria-hidden="true"></i></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../script.js"></script>
   </body>
 </html>

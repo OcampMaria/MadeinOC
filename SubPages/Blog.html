@@ -1,164 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blog</title>
-    <!-- main style css -->
-    <link
-      rel="stylesheet"
-      href="../Styles/style.css"
-      <!--
-      font-awesome
-      for
-      icons
-      --
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-  </head>
-  <body>
-    <header>
-      <!-- Navbar -->
-      <nav>
-        <div id="navbar">
-          <div id="logo">
-            <a href="../index.html">
-              <img class="nav-logo" src="../Assets/SCLogo.webp" />
-            </a>
-          </div>
-          <div id="links">
-            <a href="../index.html">Home</a>
-            <a href="./About.html">About</a>
-            <a href="./Blog.html">Blog</a>
-            <a href="./LocalBusiness.html">Local Business</a>
-            <a href="./Contact.html">Contact</a>
-          </div>
 
-          <div class="mobile-btn">
-            <a
-              id="menu-btn"
-              onclick="myFunction()"
-              class="fa fa-bars fa-2x"
-            ></a>
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog</title>
+  <!-- main style css -->
+  <link rel="stylesheet" href="../Styles/style.css" <!-- font-awesome for icons -- />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+  <header>
+    <!-- Navbar -->
+    <nav>
+      <div id="navbar">
+        <div id="logo">
+          <a href="../index.html">
+            <img class="nav-logo" src="../Assets/SCLogo.webp" />
+          </a>
         </div>
-      </nav>
-      <!-- Mobile Menu -->
-      <div id="mobile-menu" class="mobile-menu">
-        <ul class="mobile-links">
-          <li class="nav-list"><a href="./index.html">Home</a></li>
-          <li class="nav-list"><a href="./SubPages/About.html">About</a></li>
-          <li class="nav-list"><a href="./SubPages/Blog.html">Blog</a></li>
-          <li class="nav-list">
-            <a href="./SubPages/LocalBusiness.html">Local Business</a>
-          </li>
-          <li class="nav-list">
-            <a href="./SubPages/Contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </header>
-
-    <!-- main  section-->
-    <!-- Hero section About-->
-    <main class="hero-section wrapper">
-      <div class="hero-text">
-        <h1>Made in Orange County - Blog</h1>
-        <h2>Championing Small Business & Heroes</h2>
-      </div>
-    </main>
-
-    <!-- Blog Posts section -->
-
-    <section class="sub-section">
-      <h1>The column-gap Property</h1>
-      <p>
-        Use the <em>column-gap</em> property to adjust the space between the
-        columns:
-      </p>
-      <div class="grid-container">
-        <div class="grid-item">1</div>
-        <div class="grid-item">2</div>
-        <div class="grid-item">3</div>
-        <div class="grid-item">4</div>
-        <div class="grid-item">5</div>
-        <div class="grid-item">6</div>
-        <div class="grid-item">7</div>
-        <div class="grid-item">8</div>
-        <div class="grid-item">9</div>
-      </div>
-    </section>
-
-    <section class="blog sub-section">
-      <h2>Find Your Local Businessess</h2>
-      <div class="blogs-container">
-        <div class="single-blog-container">
-          <img src="../Assets/bus1.png" alt="buss1" />
-          <card>
-            <h3>Blog Title</h3>
-            <button>Preview</button>
-          </card>
+        <div id="links">
+          <a href="../index.html">Home</a>
+          <a href="./About.html">About</a>
+          <a href="./Blog.html">Blog</a>
+          <a href="./LocalBusiness.html">Local Business</a>
+          <a href="./Contact.html">Contact</a>
         </div>
-        <div class="single-blog-container">
-          <img src="../Assets/bus1.png" alt="buss1" />
-          <card>
-            <h3>Blog Title</h3>
-            <button>Preview</button>
-          </card>
-        </div>
-        <div class="single-blog-container">
-          <img src="../Assets/bus1.png" alt="buss1" />
-          <card>
-            <h3>Blog Title</h3>
-            <button>Preview</button>
-          </card>
-        </div>
-        <div class="single-blog-container">
-          <img src="../Assets/bus1.png" alt="buss1" />
-          <card>
-            <h3>Blog Title</h3>
-            <button>Preview</button>
-          </card>
+
+        <div class="mobile-btn">
+          <a id="menu-btn" onclick="myFunction()" class="fa fa-bars fa-2x"></a>
         </div>
       </div>
-    </section>
-
-    <!-- footer -->
-    <footer>
-      <ul class="footer-items">
-        <li>
-          <a href="#">Twitter</a>
+    </nav>
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="mobile-menu">
+      <ul class="mobile-links">
+        <li class="nav-list"><a href="./index.html">Home</a></li>
+        <li class="nav-list"><a href="./SubPages/About.html">About</a></li>
+        <li class="nav-list"><a href="./SubPages/Blog.html">Blog</a></li>
+        <li class="nav-list">
+          <a href="./SubPages/LocalBusiness.html">Local Business</a>
         </li>
-        <li>
-          <a href="#" class="footer-item">Codepen</a>
-        </li>
-        <li><a href="#" class="footer-item">Email</a></li>
-        <li><a href="#">Dribbble</a></li>
-        <li><a href="#" class="footer-item">Github</a></li>
-        <li>
-          <p>👋</p>
+        <li class="nav-list">
+          <a href="./SubPages/Contact.html">Contact</a>
         </li>
       </ul>
+    </div>
+  </header>
 
-      <!-- social media -->
-      <div class="center">
-        <div id="social-test">
-          <ul class="social">
-            <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
-            <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
-            <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
-            <li><i class="fa fa-vimeo" aria-hidden="true"></i></li>
-            <li><i class="fa fa-behance" aria-hidden="true"></i></li>
-            <li><i class="fa fa-dribbble" aria-hidden="true"></i></li>
-            <li><i class="fa fa-github" aria-hidden="true"></i></li>
-            <li><i class="fa fa-pied-piper" aria-hidden="true"></i></li>
-          </ul>
-        </div>
+  <!-- main  section-->
+  <!-- Hero section About-->
+  <main class="hero-section wrapper">
+    <div class="hero-text">
+      <h1>Made in Orange County - Blog</h1>
+      <h2>Championing Small Business & Heroes</h2>
+    </div>
+  </main>
+
+  <!-- Blog Posts section -->
+
+  <section class="sub-section container">
+    <h2>The column-gap Property</h2>
+    <p>
+      Use the <em>column-gap</em> property to adjust the space between the
+      columns:
+    </p>
+    <div class="grid-container blog">
+      <div class="grid-item">
+        <img src="../Assets/bus1.png" alt="buss1" />
+        <card>
+          <h3>Blog Title</h3>
+          <button>Preview</button>
+        </card>
       </div>
-    </footer>
-  </body>
+      <div class="grid-item">
+        <img src="../Assets/bus1.png" alt="buss1" />
+        <card>
+          <h3>Blog Title</h3>
+          <button>Preview</button>
+        </card>
+      </div>
+      <div class="grid-item">
+        <img src="../Assets/bus1.png" alt="buss1" />
+        <card>
+          <h3>Blog Title</h3>
+          <button>Preview</button>
+        </card>
+      </div>
+      <div class="grid-item">
+        <img src="../Assets/bus1.png" alt="buss1" />
+        <card>
+          <h3>Blog Title</h3>
+          <button>Preview</button>
+        </card>
+      </div>
+      <div class="grid-item">
+        <img src="../Assets/bus1.png" alt="buss1" />
+        <card>
+          <h3>Blog Title</h3>
+          <button>Preview</button>
+        </card>
+      </div>
+      <div class="grid-item">
+        <img src="../Assets/bus1.png" alt="buss1" />
+        <card>
+          <h3>Blog Title</h3>
+          <button>Preview</button>
+        </card>
+      </div>
+      
+    </div>
+  </section>
+
+  
+
+  <!-- footer -->
+  <footer>
+    <ul class="footer-items">
+      <li>
+        <a href="#">Twitter</a>
+      </li>
+      <li>
+        <a href="#" class="footer-item">Codepen</a>
+      </li>
+      <li><a href="#" class="footer-item">Email</a></li>
+      <li><a href="#">Dribbble</a></li>
+      <li><a href="#" class="footer-item">Github</a></li>
+      <li>
+        <p>👋</p>
+      </li>
+    </ul>
+
+    <!-- social media -->
+    <div class="center">
+      <div id="social-test">
+        <ul class="social">
+          <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+          <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+          <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+          <li><i class="fa fa-vimeo" aria-hidden="true"></i></li>
+          <li><i class="fa fa-behance" aria-hidden="true"></i></li>
+          <li><i class="fa fa-dribbble" aria-hidden="true"></i></li>
+          <li><i class="fa fa-github" aria-hidden="true"></i></li>
+          <li><i class="fa fa-pied-piper" aria-hidden="true"></i></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
