@@ -185,7 +185,7 @@ a:hover {
   transform: translate(-50%, -50%);
 }
 
-button {
+button{
   border: none;
   outline: 0;
   display: inline-block;
@@ -196,6 +196,19 @@ button {
   cursor: pointer;
   /* margin-top: 3rem; */
   border-radius: 2px;
+}
+
+.btn-primary a {
+  color: #fff;
+  background-color: #dc3545;
+  border: none;
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+
+button:hover, .btn-primary:hover{
+  transform: scale(1.1);
+  transition: 2s;
 }
 
 img {
@@ -405,6 +418,42 @@ input:nth-of-type(5):checked ~ main#carousel {
   /* padding:4rem; */
 }
 
+/* .cards{
+  background-color: #e15e14;
+  padding: 1rem;
+  margin: 2px
+} */
+.btn-primary {
+  background-color: #e15e14;
+  border-color: #e15e14;
+}
+
+/* /////////////////////////Blog/////////////////////////////// */
+.card {
+  background: #222;
+  border: 1px solid #dd2476;
+  color: rgba(188, 151, 26, 0.8);
+  margin-bottom: 2rem;
+}
+
+.btn {
+  border: 5px solid;
+  border-image-slice: 1;
+  background: blue;
+  -webkit-background-clip: text !important;
+  text-decoration: none;
+  transition: all .4s ease;
+  color: blue;
+}
+
+.btn:hover, .btn:focus {
+    
+  -webkit-background-clip: none !important;
+  -webkit-text-fill-color: #fff !important;
+  border: 5px solid #fff !important; 
+  box-shadow: #222 1px 0 10px;
+  text-decoration: underline;
+}
 /* //////////////// Local Business //////////////////////////// */
 .BusinessList .grid-container{
   display: grid;
@@ -415,6 +464,15 @@ input:nth-of-type(5):checked ~ main#carousel {
 }
 
 /* footer ////////////////////////////////////////////////////////////////////////////*/
+.footer1{
+  text-align: center;
+  padding-top: 6rem;
+
+}
+
+.footer2{
+  align-items: center;
+}
 .footer-items {
   display: inline-grid;
   grid-auto-flow: column;
