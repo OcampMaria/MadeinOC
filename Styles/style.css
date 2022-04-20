@@ -185,6 +185,7 @@ a:hover {
   transform: translate(-50%, -50%);
 }
 
+
 button{
   border: none;
   outline: 0;
@@ -215,6 +216,14 @@ img {
   height: 15rem;
 }
 
+.welcome-image img{
+  height: 25rem;
+}
+
+.text p{
+  text-align: left;
+}
+
 /* Transition to index image */
 .onhover:hover{
   height:15rem;
@@ -237,6 +246,7 @@ img {
 .sub-section {
   display: contents;
 }
+
 
 /* ------------------------------- */
 
@@ -440,7 +450,7 @@ input:nth-of-type(5):checked ~ main#carousel {
   border: 5px solid;
   border-image-slice: 1;
   background: blue;
-  -webkit-background-clip: text !important;
+  /* -webkit-background-clip: text !important; */
   text-decoration: none;
   transition: all .4s ease;
   color: blue;
@@ -448,7 +458,7 @@ input:nth-of-type(5):checked ~ main#carousel {
 
 .btn:hover, .btn:focus {
     
-  -webkit-background-clip: none !important;
+  /* -webkit-background-clip: none !important; */
   -webkit-text-fill-color: #fff !important;
   border: 5px solid #fff !important; 
   box-shadow: #222 1px 0 10px;

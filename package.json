@@ -1,0 +1,19 @@
+{
+  "name": "ocampobritomaria--html--madeinoc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OcampMaria/MadeinOC.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OcampMaria/MadeinOC/issues"
+  },
+  "homepage": "https://github.com/OcampMaria/MadeinOC#readme"
+}
