@@ -1,0 +1,43 @@
+.hero-section {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-auto-flow: column;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../Assets/Oranges.png);
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: xx-large;
+}
+
+.hero-text-main {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 62%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: xx-large;
+}
+
+.heroImg {
+  height: 25rem;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 31%;
+  transform: translate(-50%, -50%);
+}
+

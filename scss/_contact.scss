@@ -1,0 +1,57 @@
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #e15e14;
+    color: white;
+    padding: 1rem;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 2rem;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .form-container {
+  
+      border-radius: 5px;
+      background-color: #e15e14b5;
+      padding: 4rem;
+      color: white;
+      margin: 4rem 5rem 4rem;
+  
+  }
+  
+  .col-25 {
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 100%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  

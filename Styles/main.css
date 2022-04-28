@@ -1,3 +1,87 @@
+.hero-section {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-auto-flow: column;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Assets/Oranges.png);
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: xx-large; }
+
+.hero-text-main {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 62%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: xx-large; }
+
+.heroImg {
+  height: 25rem;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 31%;
+  transform: translate(-50%, -50%); }
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical; }
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block; }
+
+input[type=submit] {
+  background-color: #e15e14;
+  color: white;
+  padding: 1rem;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 2rem; }
+
+input[type=submit]:hover {
+  background-color: #45a049; }
+
+.form-container {
+  border-radius: 5px;
+  background-color: #e15e14b5;
+  padding: 4rem;
+  color: white;
+  margin: 4rem 5rem 4rem; }
+
+.col-25 {
+  width: 25%;
+  margin-top: 6px; }
+
+.col-75 {
+  float: left;
+  width: 100%;
+  margin-top: 6px; }
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
 h1 {
   color: white;
   font-size: 5rem; }
@@ -9,13 +93,13 @@ h1 {
   .topnav a {
     float: left;
     display: block;
-    color: #000000;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px; }
     .topnav a:hover {
-      background-color: #e15f14;
+      background-color: #e15e14;
       color: white;
       text-decoration: none; }
     .topnav a:active {
@@ -38,7 +122,7 @@ button {
   padding-left: 1rem;
   padding-bottom: .5rem;
   padding-right: 1rem;
-  color: #eee;
+  color: white;
   background-color: #e15e14;
   text-align: center;
   cursor: pointer;
