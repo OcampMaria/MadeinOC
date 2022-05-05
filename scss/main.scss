@@ -2,57 +2,56 @@
 @import "contact";
 @import "variables";
 
-h1{
-    color:$secondaryColor;
-    font-size:5rem
-} 
-
-.topnav{
-    overflow: hidden;
-    background-color: $secondaryColor;
-    padding-top: 1rem;
-    // display: flex;
-    // align-items: center;
-    a{
-        float: left;
-        display: block;
-        color: $primaryColor;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        &:hover{
-            background-color: $terciaryColor;
-            color: $secondaryColor;
-            text-decoration: none;
-        }
-        &:active{
-            background-color: $terciaryColor;
-            color: $secondaryColor;
-        }
-    } 
-
-    .icon {
-        display: none;
-    }
-    
+h1 {
+  color: $secondaryColor;
+  font-size: 5rem;
 }
 
-#logo{
-    display: grid;
-    justify-content: end;
-    margin-left: auto;
-    &:span{
-        color: $accetColor;
+.topnav {
+  overflow: hidden;
+  background-color: $secondaryColor;
+  padding-top: 1rem;
+  // display: flex;
+  // align-items: center;
+  a {
+    float: left;
+    display: block;
+    color: $primaryColor;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    &:hover {
+      background-color: $terciaryColor;
+      color: $secondaryColor;
+      text-decoration: none;
     }
+    &:active {
+      background-color: $terciaryColor;
+      color: $secondaryColor;
+    }
+  }
+
+  .icon {
+    display: none;
+  }
 }
 
-button{
-    border: none;
+#logo {
+  display: grid;
+  justify-content: end;
+  margin-left: auto;
+  &:span {
+    color: $accetColor;
+  }
+}
+
+button {
+  border: none;
   outline: 0;
   display: inline-block;
   padding-left: 1rem;
-  padding-bottom: .5rem;
+  padding-bottom: 0.5rem;
   padding-right: 1rem;
   color: $secondaryColor;
   background-color: $terciaryColor;
@@ -60,14 +59,14 @@ button{
   cursor: pointer;
   border-radius: 2px;
 
-  a{
+  a {
     color: $secondaryColor;
-    text-decoration:none;
+    text-decoration: none;
     font-size: 1.5rem;
-    border-radius: 10px; 
+    border-radius: 10px;
   }
 
-  &:hover{
+  &:hover {
     transform: scale(1.1);
     transition: 2s;
   }

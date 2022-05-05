@@ -21,12 +21,12 @@ input[type=text], select, textarea {
     border-radius: 4px;
     cursor: pointer;
     margin-top: 2rem;
+
+    &:hover{
+      background-color: #45a049;
+    }
   }
-  
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  
+ 
   .form-container {
   
       border-radius: 5px;
