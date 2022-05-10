@@ -2,3 +2,105 @@ $primaryColor: black;
 $secondaryColor: white;
 $terciaryColor: #e15e14;
 $accetColor: #0474bc;
+
+// condicionales
+$screenSize: mobile;
+
+body {
+  @if $screenSize == mobile {
+    background-color: red;
+  } @else if $screenSize == tablet {
+    background-color: pink;
+  } @else {
+    background-color: blue;
+  }
+}
+
+// bucles. loops?
+// EACH
+@each $color in blue, yellow, black, white, orange {
+  .#{$color} {
+    color: ($color);
+  }
+}
+
+// MAP
+// declaramos nuestro mapa... (key/value)
+$redes: (
+  twitter: #55acee,
+  facebook: #3a5795,
+  instagram: #ffffff00,
+);
+
+// @each key, value in map{}
+@each $red, $color in $redes {
+  .btn--#{$red} {
+    background-color: $color;
+  }
+}
+
+// MAP GET
+// declaramos nuestro mapa... (key/value)
+$estilos: (
+    color: #0474bc, 
+    centro: center, 
+    tFuente: 35px, 
+    1rem: 1rem, 
+);
+
+// map-get(nombreMap, key)
+.caja {
+    background-color: map-get($estilos, color);
+    text-align: map-get($estilos, centro);
+    padding: map-get($estilos, sFuente);
+    font-size: map-get($estilos, 1rem);
+};
+
+// EXTEND
+.button{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding-left: 1rem;
+    padding-bottom: .5rem;
+    padding-right: 1rem;
+    color: #eee;
+    background-color: #e15e14;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 2px;  
+}
+
+.btn-primary {
+    @extend .button;
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+
+.btn-secondary {
+    @extend .button;
+    background: blue;
+    text-decoration: none;
+    transition: all .4s ease;
+}
+
+// MIXING
+@mixin sizes($width, $height, $color2){
+    height: $height;
+    width:$width;
+    color:$color2;
+}
+
+.box{
+    @include sizes(500px, 50px, orange);
+}
+
+@mixin flexbox ($flex, $direction, $wrap){
+    display: $flex; 
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+}
+
+.imagenesCarousel{
+    @include flexbox(flex, row, wrap);
+}
