@@ -565,7 +565,7 @@ footer {
 
 
 /* ///////////////////// Contact Form ///////////////////////// */
-/* input[type=text], select, textarea {
+input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -612,14 +612,14 @@ input[type=submit]:hover {
   float: left;
   width: 100%;
   margin-top: 6px;
-} */
+}
 
 /* Clear floats after the columns */
-/* .row:after {
+.row:after {
   content: "";
   display: table;
   clear: both;
-} */
+}
 
 
 /* social media //////////////////////////////////////////////////////////////////*/
